@@ -1,6 +1,22 @@
 <html data-theme="dark">
     <head>
+        <title> Travel Guide: Shillong </title>
         <link rel="stylesheet" href="./pico.jade.min.css">
+        <style>
+            html {
+                font-size: 16px;
+            }
+            .small {
+                width: 450px;
+                max-width: 100%;
+                border-radius: 8px;
+            }
+            .large {
+                width: 750px;
+                max-width: 100%;
+                border-radius: 8px;
+            }
+        </style>
     </head>
 
     <body>
@@ -9,14 +25,35 @@
             <h1> Travel Guide: Shillong </h1>
         </header>
 
+        <figure class="container">
+            <img src="view.jpg" alt="Shillong" class="large">
+        </figure>
+
+        <br>
+
         <main class="container">
 
             <details class="container" open>
                 <summary>Table of Contents</summary>
                 <ul>
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#howtoreach">How to Reach</a></li>
+                    <li>
+                        <a href="#intro">Introduction</a>
+                        <ul><li><a href="#best"> Best time to visit Shillong </a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#howtoreach">How to Reach</a>
+                        <ul>
+                            <li><a href="#roadways"> Roadways </a></li>
+                            <li><a href="#railways"> Railways </a></li>
+                            <li><a href="#airways"> Airways </a></li>
+                        </ul>
+                    </li>
                     <li><a href="#accommodation">Accommodation</a></li>
+                    <li>
+                        <a href="#things">Things to Do</a>
+                        <ul><li><a href="#food"> Food Spots </a></li></ul>
+                    </li>
+                    <li><a href="#end">Final Thoughts</a></li>
                 </ul>
             </details>
 
@@ -24,13 +61,13 @@
 
             <section class="container" id="intro">
 
-                <h2> Introduction </h2>
+                <h3> Introduction </h3>
                 <p class="secondary">
                     Shillong is a hill station and the capital of Meghalaya, and the headquarters of the East Khasi Hills district. Also known as "Scotland of the East" because the rolling hills around it reminded British of the Scottish Highlands, Shillong was the capital of unified Assam up until 1972 before the creation of Meghalaya.
                 </p>
             
 
-                <h5> Best time to visit Shillong </h5>
+                <h5 id="best"> Best time to visit Shillong </h5>
                 <p class="secondary">
                     September to May is generally considered the best time to visit Shillong
                 </p>
@@ -47,8 +84,8 @@
 
             <section class="container" id="howtoreach">
 
-                <h2> How to Reach </h2>
-                <h5> Roadways </h5>
+                <h3> How to Reach </h3>
+                <h5 id="roadways"> Roadways </h5>
                 <p class="container">
                     You can reach Guwahati from anywhere in India. Shillong is connected to Guwahati via NH6. The route is approximately 100km or 2.5 hours of driving. The roads are mountainous so speed drops after Nongpoh.
                 </p>
@@ -56,12 +93,12 @@
                     You can catch shared sumos/tempos from Paltan Bazaar or state run/private buses from ISBT Khanapara. Private taxis are also available.
                 </p>
 
-                <h5> Railways </h5>
+                <h5 id="railways"> Railways </h5>
                 <p class="container">
                     There is no direct railway connectivity to Shillong, the nearest station being Guwahati Railway Station. You can reach Guwahati Railway Station from anywhere in India, and then reach Shillong through road as described above.
                 </p>
 
-                <h5> Airways </h5>
+                <h5 id="airways"> Airways </h5>
                 <p class="container">
                     You can reach Shillong by air either through the Shillong Airport (SHL), 19km from the city centre, or Lokpriya Gopinath Bordoloi International Airport (GAU) in Guwahati and then continue your journey to Shillong through road.
                 </p>
@@ -69,9 +106,86 @@
             </section>
 
             <section class="container" id="accommodation">
-                <h2> Accommodation </h2>
-                
+
+                <h3> Accommodation </h3>
+                <p class="container">
+                    Shillong has a lot of accommodation options, ranging from highly luxurious hotels to budget homestays.
+                </p>
+                <p class="container">
+                    The most luxurious options include:
+                </p>
+                <ul class="secondary">
+                    <li> Courtyard by Marriott Shillong </li>
+                    <li> Vivanta Meghalaya </li>
+                    <li> La Nicholas Dei DA Kine Resort </li>
+                </ul>
+                <p class="container">
+                    While the more affordable options are:
+                </p>
+                <ul class="secondary">
+                    <li> Kaizun Bed And Breakfast </li>
+                    <li> Hotel Poinisuk </li>
+                    <li> Ila Traveler's Hub </li>
+                </ul>
+
             </section>
+
+            <section class="container" id="things">
+                <h3> Things to Do </h3>
+
+                <figure>
+                    <img src="wards.jpg" alt="Ward's Lake, Shillong" class="small">
+                    <figcaption>Ward's Lake, Shillong</figcaption>
+                </figure>
+
+                <p class="container">
+                    The locals recommend a host of must-do activities in and around Shillong. These include:
+                </p>
+                <ul>
+                    <li>Boating at Ward's Lake</li>
+                    <li>Laitlum Canyon (just outside Shillong)</li>
+                    <li>Mawphlang Sacred Forest walk</li>
+                    <li>Don Bosco Museum</li>
+                    <li>Local churches & places of worship</li>
+                    <li>Iew Duh Market</li>
+                    <li>Rhododendron Trail</li>
+                    <li>Lad Mawphlang Trail</li>
+                    <li>Police Bazaar (shopping)</li>
+                </ul>
+                <h5 id="food"> Food Spots </h5>
+                <p class="container"> The locals recommend a diverse set of spots for a great dining experience. </p>
+                <ul>
+                    <li>De Javu (Chinese)</li>
+                    <li>Madras Café</li>
+                    <li>Dopwai (continental)</li>
+                    <li>City Hut Dhaba (family)</li>
+                    <li>Rynsan (ethnic fusion)</li>
+                </ul>
+
+            </section>
+
+            <section class="container" id="end">
+                <h3> Final Thoughts </h3>
+                <p class="container">
+                    Overall, a three day trip to Shillong can cost about ₹6000 per person on a budget. With pleasant weather for most of the year and easy access from Guwahati, Shillong is an ideal destination for a short getaway or a longer, relaxing trip. No matter how you plan your visit, the experiences and scenery are bound to stay with you long after you've returned home.
+                </p>
+            </section>
+
+            <br>
+
+            <figure class="container">
+                <img src="laitlum.jpg" alt="Laitlum Canyon, Shillong" class="small">
+                <figcaption>Laitlum Canyon, Shillong</figcaption>
+            </figure>
+
+            <br>
+
+            <footer class="container">
+                <p>Travel Guide: Shillong, Project Submission</p>
+                <p>Last updated: November 2025</p>
+                <p>Divyansh Deep, 2512186</p>
+            </footer>
+
         </main>
     </body>
 </html>
